@@ -1,0 +1,1 @@
+cmd_/home/Sachin/Sachin_Documents/PCI/enumeration/Module.symvers := sed 's/\.ko$$/\.o/' /home/Sachin/Sachin_Documents/PCI/enumeration/modules.order | scripts/mod/modpost -m -a  -o /home/Sachin/Sachin_Documents/PCI/enumeration/Module.symvers -e -i Module.symvers   -T -
